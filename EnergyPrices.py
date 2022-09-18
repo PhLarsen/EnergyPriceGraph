@@ -7,7 +7,7 @@ import mplcursors as mpc
 
 
 date_string = date.today().strftime('%Y-%m-%d')
-url = "https://api.energidataservice.dk/dataset/elspotprices?start="+date_string+"&sort=HourDK%20ASC&filter={%22PriceArea%22:%22DK2%22}"
+url = "https://api.energidataservice.dk/dataset/elspotprices?start="+date_string+"&sort=HourDK%20ASC&filter={%22PriceArea%22:%22DK1%22}"
 
 response = requests.get(url)
 
